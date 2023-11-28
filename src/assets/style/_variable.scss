@@ -1,0 +1,14 @@
+@import '../libs/normalize.scss';
+@import '../libs/reset.scss';
+
+$first-color: black;
+$second-color: #808080;
+$third-color: #fcff3f;
+$fourth-color: #ffffff;
+
+:root {
+  --first-color: #000000;
+  --second-color: #808080;
+  --third-color: #893fff;
+  --fourth-color: #ffffff;
+}

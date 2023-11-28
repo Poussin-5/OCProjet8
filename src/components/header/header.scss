@@ -1,0 +1,50 @@
+@import '../../assets/style/_variable.scss';
+@import '../../assets/libs/normalize.scss';
+@import '../../assets/libs/reset.scss';
+
+:root {
+  --first-color: #000000;
+  --second-color: #808080;
+  --third-color: #fcff3f;
+  --fourth-color: #ffffff;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  color: var(--first-color);
+
+  h1 {
+    max-height: 150px;
+    margin: 0;
+    img {
+      box-sizing: border-box;
+      height: 100%;
+      width: 50%;
+    }
+  }
+  ul {
+    padding: 5px 20px;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    align-items: end;
+
+    a {
+      text-decoration: none;
+      font-size: 20px;
+      color: var(--first-color);
+    }
+
+    a:visited {
+      color: var(--first-color);
+    }
+    .underline {
+      text-decoration: underline;
+    }
+
+    li :hover {
+      text-decoration: underline;
+    }
+  }
+}
