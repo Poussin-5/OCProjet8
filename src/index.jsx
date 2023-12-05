@@ -19,7 +19,7 @@ root.render(
     <Router>
       <Header />
       <Routes>
-        <Route path="/OCProjet8" element={<Home />} />
+        <Route path="/OCProjet8/" element={<Home />} />
         <Route path="/a-propos" element={<Apropos />} />
         <Route path="/mes-competences" element={<Skills />} />
         <Route path="/mes-projets" element={<Projects />} />
