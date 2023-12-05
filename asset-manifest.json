@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/OCProjet8/static/css/main.79e3e175.css",
+    "main.js": "/OCProjet8/static/js/main.3f255208.js",
+    "static/js/787.7da95b79.chunk.js": "/OCProjet8/static/js/787.7da95b79.chunk.js",
+    "static/media/portrait.png": "/OCProjet8/static/media/portrait.f024eb54213502254f78.png",
+    "static/media/logo_GP.png": "/OCProjet8/static/media/logo_GP.4863dbfafaeb2e51e292.png",
+    "static/media/nodejs-seeklogo.com.svg": "/OCProjet8/static/media/nodejs-seeklogo.com.5a3a9ca294db0539884810b6e6eafedd.svg",
+    "static/media/react-seeklogo.com.svg": "/OCProjet8/static/media/react-seeklogo.com.ae62622598f39552abdcdb023e554c6f.svg",
+    "static/media/sass-seeklogo.com.svg": "/OCProjet8/static/media/sass-seeklogo.com.8351205a93eafac2e392b26acf7580e1.svg",
+    "static/media/yarn-seeklogo.com.svg": "/OCProjet8/static/media/yarn-seeklogo.com.20176999d3a9efda7a2bbfad3fe811ee.svg",
+    "static/media/css3-seeklogo.com.svg": "/OCProjet8/static/media/css3-seeklogo.com.e7a9de36d9335d92932e93eb3b32deb9.svg",
+    "index.html": "/OCProjet8/index.html",
+    "static/media/font-awesome-seeklogo.com.svg": "/OCProjet8/static/media/font-awesome-seeklogo.com.c09e3c6906f1952cba96dcbb42555cbb.svg",
+    "static/media/javascript-js-seeklogo.com.svg": "/OCProjet8/static/media/javascript-js-seeklogo.com.fd46ca41839433d73577989d86eb2fe2.svg",
+    "static/media/html5-with-wordmark-color.svg": "/OCProjet8/static/media/html5-with-wordmark-color.e2e565a8aa95959602aa37e29b039bee.svg",
+    "static/media/visual-studio-code-seeklogo.com.svg": "/OCProjet8/static/media/visual-studio-code-seeklogo.com.b8b1e001813039750e6c05c236ab0d46.svg",
+    "main.79e3e175.css.map": "/OCProjet8/static/css/main.79e3e175.css.map",
+    "main.3f255208.js.map": "/OCProjet8/static/js/main.3f255208.js.map",
+    "787.7da95b79.chunk.js.map": "/OCProjet8/static/js/787.7da95b79.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79e3e175.css",
+    "static/js/main.3f255208.js"
+  ]
+}
