@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Poussin-5.github.io/OCProjet8",
+  "homepage": "https://Poussin-5.github.io",
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "7.21.11",
     "@emailjs/browser": "^3.11.0",
