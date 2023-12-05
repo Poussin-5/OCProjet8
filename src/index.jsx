@@ -7,6 +7,11 @@ import Header from './components/header/header.jsx'
 import Home from './pages/home/home.jsx'
 import Error from './pages/error/error.jsx'
 import Footer from './components/footer/footer.jsx'
+import Contact from './pages/contact/contact.jsx'
+import Apropos from './pages/a-propos/a-propos.jsx'
+import Projects from './pages/projects/projects.jsx'
+import Project from './pages/project/project.jsx'
+import Skills from './pages/skills/skills.jsx'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
@@ -15,10 +20,11 @@ root.render(
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/a-propos" />
-        <Route path="/mes-competences" />
-        <Route path="/mes-projet" />
-        <Route path="/contact" />
+        <Route path="/a-propos" element={<Apropos />} />
+        <Route path="/mes-competences" element={<Skills />} />
+        <Route path="/mes-projets" element={<Projects />} />
+        <Route path="/projet/:idProject" element={<Project />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<Error />} />
       </Routes>
       <Footer />

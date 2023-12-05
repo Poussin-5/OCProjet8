@@ -1,0 +1,17 @@
+.skills-logo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 20px;
+  img {
+    background-color: var(--background-color);
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+  }
+  img:hover {
+    transform: scale(1.5);
+  }
+}
