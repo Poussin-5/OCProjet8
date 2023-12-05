@@ -28,3 +28,11 @@
     color: var(--third-color);
   }
 }
+
+@media (max-width: 768px) {
+  .a-propos {
+    p {
+      font-size: 18px;
+    }
+  }
+}
