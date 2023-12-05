@@ -18,11 +18,10 @@
     font-size: 30px;
     color: var(--first-color);
     text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 25px;
   }
   a:hover {
-    color: var(--third-color);
-  }
-  a:visited {
-    color: var(--first-color);
+    color: var(--second-color);
   }
 }

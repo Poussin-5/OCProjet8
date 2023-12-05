@@ -1,0 +1,30 @@
+.a-propos {
+  background-color: var(--background-color);
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  div {
+    display: flex;
+    justify-content: center;
+    h2 {
+      color: var(--first-color);
+      font-size: 50px;
+      padding: 10px;
+      border-bottom: solid 2px var(--first-color);
+    }
+  }
+  p {
+    font-size: 24px;
+    text-align: center;
+    line-height: 140%;
+  }
+  a {
+    color: var(--first-color);
+    text-decoration: none;
+    font-weight: bold;
+  }
+  a:hover {
+    color: var(--third-color);
+  }
+}

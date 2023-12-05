@@ -1,0 +1,77 @@
+[
+  {
+    "id": "1",
+    "title": "Booki",
+    "description": "Création de la page d'accueil responsive, d'une agence de voyage.",
+    "cover": "/images/booki/1.png",
+    "pictures": [
+      {
+        "src": "/images/booki/2.png",
+        "id": "1"
+      }
+    ],
+    "langages": ["HTML 5", "CSS 3"],
+    "technologie": [],
+    "github": "https://github.com/Poussin-5/OCBooki"
+  },
+  {
+    "id": "2",
+    "title": "Sophie Buel",
+    "description": "Création d'une page web dynamique pour la photographe Sophie Buel",
+    "cover": "/images/SophieBuel/1.png",
+    "pictures": [
+      {
+        "src": "/images/SophieBuel/2.png",
+        "id": "1"
+      }
+    ],
+    "langages": ["HTML 5", "CSS 3", "JS"],
+    "github": "https://github.com/Poussin-5/OCProjet3"
+  },
+  {
+    "id": "3",
+    "title": "Nina Carducci",
+    "description": "Optimisation et debuggage du site de la photographe Nina Carducci",
+    "cover": "/images/Optimisation/1.png",
+    "pictures": [
+      {
+        "src": "/images/Optimisation/2.png",
+        "id": "1"
+      }
+    ],
+    "langages": ["HTML 5", "CSS 3", "JS"],
+    "technologie": ["Google LightHouse", "Wave", "Heading map"],
+    "github": "https://github.com/Poussin-5/OCProjet5"
+  },
+  {
+    "id": "4",
+    "title": "Kasa",
+    "description": "Création de l'application web de l'agence de location KASA",
+    "cover": "/images/kasa/1.png",
+    "pictures": [
+      {
+        "src": "/images/kasa/2.png",
+        "id": "1"
+      }
+    ],
+    "langages": ["HTML 5", "CSS 3", "JS"],
+    "technologie": ["Create-React-App", "Node.js", "JSX"],
+    "framework": ["React"],
+    "github": "https://github.com/Poussin-5/OCProjet6"
+  },
+  {
+    "id": "5",
+    "title": "Mon Vieux Grimoire",
+    "description": "Création du backend du site de notation de livre Mon Vieux Grimoire",
+    "cover": "/images/MVG/1.png",
+    "pictures": [
+      {
+        "src": "/images/MVG/2.png",
+        "id": "1"
+      }
+    ],
+    "langages": ["JS"],
+    "technologie": ["MongoDB", "Mongoose", "Node.js"],
+    "github": "https://github.com/Poussin-5/OCProjet7"
+  }
+]

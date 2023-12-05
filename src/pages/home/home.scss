@@ -1,0 +1,41 @@
+.home-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--background-color);
+  padding: 10px;
+  .typewriter {
+    h2 {
+      color: var(--first-color);
+      display: flex;
+      justify-content: flex-start;
+      font-size: 50px;
+      overflow: hidden;
+      white-space: nowrap;
+      position: relative;
+      animation: typing 1s steps(26);
+      padding-bottom: 20px;
+      border-bottom: solid 2px var(--first-color);
+    }
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-content {
+    flex-direction: column-reverse;
+    .typewriter {
+      h2 {
+        font-size: 30px;
+      }
+    }
+  }
+}

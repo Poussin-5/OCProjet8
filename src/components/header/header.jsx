@@ -1,8 +1,10 @@
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import logo from '../../assets/images/logo_GP.png'
-import './header.css'
+import './header.scss'
 
 function Header() {
+  const { pathname } = useLocation()
+
   return (
     <nav className="header-nav">
       <h1>
@@ -12,16 +14,43 @@ function Header() {
       </h1>
       <ul>
         <li>
-          <Link to="/a-propos">À propos</Link>
+          <Link
+            to="/a-propos"
+            className={`${pathname === '/a-propos' ? 'underline' : null}`}
+          >
+            À propos de moi
+          </Link>
         </li>
         <li>
-          <Link to="/mes-comptences">Mes compétences</Link>
+          <Link
+            to="/mes-competences"
+            className={`${
+              pathname === '/mes-competences' ? 'underline' : null
+            }`}
+          >
+            Mes compétences
+          </Link>
         </li>
         <li>
-          <Link to="/mes-projets">Mes projets</Link>
+          <Link
+            to="/mes-projets"
+            className={`${pathname === '/mes-projets' ? 'underline' : null}`}
+          >
+            Mes projets
+          </Link>
         </li>
         <li>
-          <Link to="/contact">Contact</Link>
+          <Link
+            to="/contact"
+            className={`${pathname === '/contact' ? 'underline' : null}`}
+          >
+            Contact
+          </Link>
+        </li>
+        <li>
+          <a href="/doc/CV-Guillaume-Pautet.pdf" target="_blank">
+            CV
+          </a>
         </li>
       </ul>
     </nav>

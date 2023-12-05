@@ -1,0 +1,17 @@
+.card-txt {
+  display: flex;
+  position: absolute;
+  z-index: 2;
+  bottom: 0;
+  left: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  color: var(--txt-project-color);
+  gap: 5px;
+  width: 100%;
+  padding: 10px;
+  h2 {
+    text-align: left;
+  }
+}

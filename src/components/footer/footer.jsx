@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faAt } from '@fortawesome/free-solid-svg-icons'
-import './footer.css'
+import './footer.scss'
 
 function Footer() {
   return (
@@ -21,7 +21,7 @@ function Footer() {
           </a>
         </li>
         <li>
-          <a href="mailto:perso@guillaume-pautet.fr">
+          <a href="mailto:pro@guillaume-pautet.fr">
             <FontAwesomeIcon icon={faAt} size="2xl" />
           </a>
         </li>

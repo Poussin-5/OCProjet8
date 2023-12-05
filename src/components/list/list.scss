@@ -1,0 +1,21 @@
+.list {
+  width: 90%;
+  border-radius: 25px;
+  ul {
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    justify-content: space-around;
+    row-gap: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .list {
+    width: 98%;
+    ul {
+      row-gap: 10px;
+    }
+  }
+}
