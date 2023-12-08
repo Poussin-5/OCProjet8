@@ -36,6 +36,7 @@
     padding: 15px;
     text-align: justify;
     display: flex;
+    flex-wrap: wrap;
     gap: 5px;
   }
   li {
@@ -90,13 +91,17 @@
 }
 
 @media (max-width: 768px) {
+  .collapse {
+    width: 100%;
+  }
   .collapse-title {
-    height: 100%;
     padding: 5px;
     font-size: 14px;
     align-items: center;
   }
   .collapse-txt {
     font-size: 14px;
+    ul {
+    }
   }
 }

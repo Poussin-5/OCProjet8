@@ -21,7 +21,7 @@ function Footer() {
           </a>
         </li>
         <li>
-          <a href="mailto:pro@guillaume-pautet.fr">
+          <a href="mailto:contact@guillaume-pautet.fr">
             <FontAwesomeIcon icon={faAt} size="2xl" />
           </a>
         </li>
