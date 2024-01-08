@@ -16,7 +16,7 @@ function Header() {
         <li>
           <Link
             to="/a-propos"
-            className={`${pathname === '/a-propos' ? 'underline' : null}`}
+            className={`${pathname === '/a-propos' ? 'activ' : null}`}
           >
             À propos de moi
           </Link>
@@ -24,9 +24,7 @@ function Header() {
         <li>
           <Link
             to="/mes-competences"
-            className={`${
-              pathname === '/mes-competences' ? 'underline' : null
-            }`}
+            className={`${pathname === '/mes-competences' ? 'activ' : null}`}
           >
             Mes compétences
           </Link>
@@ -34,7 +32,7 @@ function Header() {
         <li>
           <Link
             to="/mes-projets"
-            className={`${pathname === '/mes-projets' ? 'underline' : null}`}
+            className={`${pathname === '/mes-projets' ? 'activ' : null}`}
           >
             Mes projets
           </Link>
@@ -42,7 +40,7 @@ function Header() {
         <li>
           <Link
             to="/contact"
-            className={`${pathname === '/contact' ? 'underline' : null}`}
+            className={`${pathname === '/contact' ? 'activ' : null}`}
           >
             Contact
           </Link>
