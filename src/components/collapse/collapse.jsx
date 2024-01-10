@@ -9,7 +9,7 @@ function Collapse({ titre, text, classTitle, classText }) {
 
   return (
     <div className={`collapse ${isClose ? 'close' : 'open'}`}>
-      <div className="collapse-title back-black">
+      <div className="collapse-title ">
         <h2>{titre}</h2>
         <button
           onClick={() => {
