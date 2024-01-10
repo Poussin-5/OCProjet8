@@ -3,10 +3,10 @@
 @import '../../assets/libs/reset.scss';
 
 :root {
-  --first-color: #000000;
-  --second-color: #c8c8c8;
-  --third-color: #fcff3f;
-  --fourth-color: #ffffff;
+  --first-color: #0b1320;
+  --second-color: #1c3f60;
+  --third-color: #afc1d0;
+  --fourth-color: #f3f6fa;
   --error-color: #b40404;
   --background-color: #d7d7d7;
   --txt-project-color: white;
@@ -18,17 +18,18 @@
   background-color: var(--third-color);
 }
 
-.back-grey {
+.back {
   background-color: var(--second-color);
 }
 
-.back-light-grey {
-  background-color: var(--background-color);
+.back-light {
+  background-color: var(--third-color);
 }
 .header-nav {
   display: flex;
   justify-content: space-between;
   color: var(--first-color);
+  background-color: var(--fourth-color);
 
   h1 {
     width: 50%;
@@ -42,17 +43,16 @@
   }
   ul {
     width: 100%;
-    padding: 5px 20px;
+    padding: 10px;
     list-style-type: none;
     display: flex;
     gap: 20px;
     align-items: flex-end;
     justify-content: flex-end;
-    li {
-      padding: 5px;
-    }
 
     a {
+      padding: 5px;
+      border-radius: 15px;
       text-decoration: none;
       font-size: 18px;
       font-weight: bold;
@@ -63,12 +63,12 @@
       color: var(--first-color);
     }
     .activ {
-      padding: 5px 20px;
+      padding: 5px;
       border-radius: 15px;
       background-color: var(--third-color);
     }
     li :hover {
-      padding: 5px 20px;
+      padding: 5px;
       border-radius: 15px;
       background-color: var(--third-color);
     }
