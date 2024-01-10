@@ -6,6 +6,7 @@
   justify-content: space-between;
   border-radius: 10px 10px 0 0;
   font-size: 24px;
+  background-color: var(--first-color);
   color: var(--fourth-color);
 
   button {
@@ -27,7 +28,7 @@
   border-radius: 0 0 10px 10px;
   line-height: 25px;
   font-size: 18px;
-  background: var(--first-color);
+  background: var(--third-color);
   overflow: hidden;
   max-height: 0;
   transition-property: max-height;
@@ -41,6 +42,7 @@
   }
   li {
     color: var(--fourth-color);
+    background-color: var(--first-color);
     padding: 5px 10px;
     border-radius: 10px;
   }
@@ -101,7 +103,5 @@
   }
   .collapse-txt {
     font-size: 14px;
-    ul {
-    }
   }
 }
