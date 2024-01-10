@@ -72,7 +72,7 @@
       }
     ],
     "langages": ["JS"],
-    "technologie": ["MongoDB", "Mongoose", "Node.js"],
+    "technologie": ["MongoDB", "Mongoose", "Node.js", "Express"],
     "github": "https://github.com/Poussin-5/OCProjet7"
   }
 ]
