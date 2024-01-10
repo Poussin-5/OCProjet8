@@ -3,7 +3,7 @@ import './project-txt.scss'
 
 function ProjectTxt({ title, description, langages, technologie, github }) {
   return (
-    <div className="project-txt back-grey">
+    <div className="project-txt back">
       <div className="project-txt-title">
         <h2>{title}</h2>
         <p>Descritpion du projet : {description}</p>
@@ -15,7 +15,7 @@ function ProjectTxt({ title, description, langages, technologie, github }) {
         <Collapse
           titre={`Langages utilisés`}
           text={langages.map((langage, index) => (
-            <li key={index} className="back-black">
+            <li key={index} className="back-light">
               {langage}
             </li>
           ))}
@@ -23,7 +23,7 @@ function ProjectTxt({ title, description, langages, technologie, github }) {
         <Collapse
           titre={`Technologies utilisées`}
           text={technologie.map((technologie, index) => (
-            <li key={index} className="back-black">
+            <li key={index} className="back-light">
               {technologie}
             </li>
           ))}
