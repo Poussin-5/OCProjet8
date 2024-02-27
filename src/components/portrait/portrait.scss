@@ -1,6 +1,5 @@
 .img-portrait {
   width: 50%;
-  height: 70%;
   overflow: hidden;
   border-radius: 50%;
   img {
@@ -10,6 +9,6 @@
 
 @media (max-width: 768px) {
   .img-portrait {
-    height: 300px;
+    height: 100%;
   }
 }
