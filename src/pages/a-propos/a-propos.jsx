@@ -8,7 +8,7 @@ function Apropos() {
         <h2>Qui suis-je ?</h2>
       </div>
       <p>
-        À 31 ans, je deviens officiellement <strong>développeur Web </strong>
+        À 32 ans, je deviens officiellement <strong>développeur Web </strong>
         grâce à une reconversion professionnelle.
         <br />
         Anciennement manager d’une salle de sport, je vous propose mes{' '}
